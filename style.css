@@ -6,7 +6,9 @@
 
 body {
 	background-image: url("p1.jpg");
-	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:100% 1920px;
 }
 
 .congratulations {
@@ -23,11 +25,18 @@ body {
 	margin: 40px 0;
 	color: #fff;
 }
+.congratulations h6{
+	font-size: 20px;
+	text-align: center;
+	margin: 15px 0;
+	color: #fff;
+}
 
 .congratulations p{
 	font-size: 20px;
+	text-align: center;
 	margin: 15px 0;
-	color: yellow;
+	color: #fff;
 }
 
 .congratulations input{
@@ -59,7 +68,7 @@ body {
 
 .banner h2 {
 	position: absolute;
-	top:-50%;
+	top:-46%;
 	left:-100%;
 	font-size:18px;
 	font-weight:bold;
@@ -70,4 +79,47 @@ body {
 	border-radius:5 px;
 	background-color:
 
+
+}
+.banner h5 {
+	position: absolute;
+	top:-59%;
+	left:-100%;
+	font-size:18px;
+	font-weight:bold;
+	margin:20px 0;
+	padding: 10px 15px;
+	width:50%;
+	border:0;
+	border-radius:5 px;
+	background-color:
+
+}
+
+.banner h3 {
+	position: absolute;
+	top:130%;
+	left:-100%;
+	font-size:18px;
+	font-weight:bold;
+	margin:20px 0;
+	padding: 10px 15px;
+	width:50%;
+	border:0;
+	border-radius:5 px;
+	background-color:
+		
+}
+.banner h6{
+		position: absolute;
+	top:120%;
+	left:-100%;
+	font-size:18px;
+	font-weight:bold;
+	margin:20px 0;
+	padding: 10px 15px;
+	width:50%;
+	border:0;
+	border-radius:5 px;
+	background-color:
 }
